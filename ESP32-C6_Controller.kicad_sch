@@ -1,0 +1,159 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bd736b67-78b5-4b44-8bc5-938ac4442862")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 67.31 38.1) (xy 96.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6afdc5-9409-43a7-a06a-9f8151acd259")
+	)
+	(bus
+		(pts
+			(xy 67.31 35.56) (xy 96.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73dcff14-0597-4b0f-b4e8-008eb88dde4d")
+	)
+	(bus
+		(pts
+			(xy 67.31 31.75) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4018fc8-1536-48a9-94d9-accc3421fad9")
+	)
+	(text "USB_D_P"
+		(exclude_from_sim no)
+		(at 62.484 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "146d1ad1-c82d-45f3-a271-8c04d2a01462")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 64.77 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "609a202c-fed8-4202-a01a-e6c8b5f4322a")
+	)
+	(text "5V_USB\n"
+		(exclude_from_sim no)
+		(at 62.992 28.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcb61386-03fc-4c2d-8e4a-f4ebce4e0eda")
+	)
+	(text "USB_D_N\n"
+		(exclude_from_sim no)
+		(at 62.484 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9ad9bfc-35e6-45f1-bd4a-541d7f1b30b9")
+	)
+	(sheet
+		(at 96.52 21.59)
+		(size 41.91 54.61)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8a727f0-02b2-460a-b695-a6a0160c6f41")
+		(property "Sheetname" "MCU_ESP32-C6"
+			(at 96.52 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_ESP32-C6.kicad_sch"
+			(at 96.52 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-C6_Controller"
+				(path "/bd736b67-78b5-4b44-8bc5-938ac4442862"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 21.59)
+		(size 41.91 54.61)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eac25d44-a0ca-4267-85ba-7ec959c2971b")
+		(property "Sheetname" "USB_C Power Circuit"
+			(at 25.4 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_USB.kicad_sch"
+			(at 25.4 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-C6_Controller"
+				(path "/bd736b67-78b5-4b44-8bc5-938ac4442862"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

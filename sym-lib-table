@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1_ESP32")(type "KiCad")(uri "${KIPRJMOD}/Component/ECS-400-10-37B2-CKY-TR/1_ESP32.kicad_sym")(options "")(descr ""))
+)
