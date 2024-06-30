@@ -6774,7 +6774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_ESP32:SW4_PTS815 SJM 250 SMTR LFS_CNK"
 			(at 176.53 83.82 0)
 			(effects
 				(font
@@ -6977,7 +6977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x12_P2.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
 			(at 262.89 85.09 0)
 			(effects
 				(font
@@ -7552,7 +7552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AMCA31-2R450G-S1F-T3:XDCR_AMCA31-2R450G-S1F-T3"
+		(property "Footprint" "1_ESP32:XDCR_AMCA31-2R450G-S1F-T3"
 			(at 181.61 127 0)
 			(effects
 				(font
@@ -10576,7 +10576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x12_P2.00mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
 			(at 240.03 85.09 0)
 			(effects
 				(font
@@ -10676,7 +10676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_ESP32:SW4_PTS815 SJM 250 SMTR LFS_CNK"
 			(at 50.8 81.28 0)
 			(effects
 				(font
