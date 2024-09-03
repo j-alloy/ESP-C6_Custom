@@ -1728,7 +1728,7 @@
 			)
 		)
 		(property "Value" "7.5M"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "21d6385c-ce6e-45fa-9985-656d52c252d4")
 			(effects
@@ -1883,7 +1883,7 @@
 			(uuid "36dbfe31-d772-4b04-844c-7900cb82225a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "dbb2a10c-f0bc-4c4f-9fce-ef8459d2123e")
 			(effects
@@ -13976,7 +13976,7 @@
 			)
 		)
 	)
-	(gr_text "-Check DP1 and DN1 length?\n-why DP2 and DN2\n-Increase trace width for power"
+	(gr_text "-Check DP1 and DN1 length?\n-why DP2 and DN2\n-Increase trace width for power\n-add fiducials"
 		(at 182.25 82.25 0)
 		(layer "User.6")
 		(uuid "372ed59b-3540-4b7b-aeef-383260241234")
